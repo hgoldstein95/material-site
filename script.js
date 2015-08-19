@@ -11,13 +11,13 @@ var blurbEvents = function(evt) {
 
   var $this = $(this);
   $this
-    .addClass('blue')
+    .addClass('blue-grey')
     .addClass('white-text')
-    .removeClass('blue-text')
+    .removeClass('blue-grey-text')
     .siblings()
-    .removeClass('blue')
+    .removeClass('blue-grey')
     .removeClass('white-text')
-    .addClass('blue-text');
+    .addClass('blue-grey-text');
 
   $('.c-blurbs #' + $this.data('name'))
     .removeClass('hide')

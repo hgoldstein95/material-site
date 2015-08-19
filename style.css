@@ -16,3 +16,7 @@
   left: 0;
   right: 0;
 }
+
+.slider .indicator-item.active {
+  background-color: #dd2c00 !important;
+}

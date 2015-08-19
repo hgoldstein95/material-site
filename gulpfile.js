@@ -3,6 +3,7 @@ var gulp = require('gulp');
 var jade = require('gulp-jade');
 var browserSync = require('browser-sync').create();
 var plumber = require('gulp-plumber');
+var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('jade', function() {
   gulp.src('index.jade')
