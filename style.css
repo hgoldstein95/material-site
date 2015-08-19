@@ -5,18 +5,6 @@
   z-index: 3;
 }
 
-.card.c-size-same {
-  height: 350px;
-  position: relative;
-}
-
-.card.c-size-same .card-action {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 .slider .indicator-item.active {
   background-color: #dd2c00 !important;
 }
